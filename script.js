@@ -9,6 +9,7 @@ themeBtn.addEventListener("click", () => {
 const emailBtn = document.getElementById("copyEmailBtn");
 
 emailBtn.addEventListener("click", () => {
-    navigator.clipboard.writeText("aprateek445@gmail.com");
+    navigator.clipboard.writeText("your email goes here");
     alert("Email copied!");
 });
+

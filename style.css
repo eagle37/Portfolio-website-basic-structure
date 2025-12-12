@@ -1,6 +1,4 @@
-/* ----------------------------------------
-   BASIC RESET + DEFAULTS
----------------------------------------- */
+
 body {
     margin: 0;
     padding: 0;
@@ -26,9 +24,7 @@ body.light {
     color: #111827;
 }
 
-/* ----------------------------------------
-   HEADER
----------------------------------------- */
+
 header {
     text-align: center;
     padding: 20px;
@@ -59,9 +55,7 @@ body.light #themeBtn {
     color: #111827;
 }
 
-/* ----------------------------------------
-   GLASS CARDS (MAIN UPGRADE)
----------------------------------------- */
+
 .card {
     background: rgba(255, 255, 255, 0.06);
     padding: 20px;
@@ -85,7 +79,7 @@ body.light #themeBtn {
     transform: translateY(-6px);
 }
 
-/* Light theme card override */
+
 body.light .card {
     background: rgba(255, 255, 255, 0.9);
     border: 1px solid #ddd;
@@ -93,9 +87,7 @@ body.light .card {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
-/* ----------------------------------------
-   LISTS + LINK COLORS
----------------------------------------- */
+
 ul {
     padding-left: 20px;
 }
@@ -110,7 +102,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Button inside contact */
+
 #copyEmailBtn {
     margin-top: 10px;
     padding: 8px 14px;
@@ -125,3 +117,4 @@ body.light #copyEmailBtn {
     background: #e5e7eb;
     color: #111827;
 }
+
